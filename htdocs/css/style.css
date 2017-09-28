@@ -39,12 +39,12 @@ ul {
 #header {
     padding: 20px;
     margin: 0 auto;
-    width:400px;
+    width:575px;
     background-color: #E9E9E9;
 }
 
 #nav {
-    min-width: 400px;
+    min-width: 575px;
     text-align: center;
     margin-left:-40px;
 }
@@ -81,7 +81,7 @@ li a {
 .main-wrap{
     padding: 20px;
     margin: 0 auto;
-    width:30em;
+    width:45em;
     text-align: justify;
 
 }
@@ -91,9 +91,11 @@ li a {
     }
 
     a {
-        font-size:3em;
+        font-size:40px;
     }
-
+    h3 {
+        font-size:5em;
+    }
     h4 {
         font-size:3em;
     }
@@ -102,7 +104,7 @@ li a {
     }
 
     .current {
-        width: 175px;
+        width: 150px;
     }
 
     pre {
@@ -110,7 +112,7 @@ li a {
     }
 
     .nonCurrent {
-        width:175px;
+        width:155px;
     }
 
     p{

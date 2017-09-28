@@ -29,6 +29,7 @@ class App
         $data["stylesheets"] = [
             "https://bootswatch.com/cosmo/bootstrap.css",
             "css/style.css",
+            "css/remserver.css"
         ];
         // Add common header, navbar and footer
         $this->view->add("framework/header", [], "header");

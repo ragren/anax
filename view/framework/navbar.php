@@ -17,7 +17,14 @@ $navbar = [
             "text" => "kmom",
             "route" => "report",
         ],
-
+        "remserver" => [
+            "text" => "REM",
+            "route" => "remserver",
+        ],
+        "comments" => [
+            "text" => "Inlägg",
+            "route" => "comments",
+        ],
     ]
 ];
 $html = "<div id='nav'> <ul>";

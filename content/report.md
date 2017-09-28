@@ -39,7 +39,41 @@ Nackdelen är att man är helt beroende på att en extern tjänst fungerar som d
 
 ### **kmom02**
 
-..
+#### *1. Vilka tidigare erfarenheter har du av MVC? Använde du någon speciell källa för att läsa på om MVC? Kan du med egna ord förklara någon fördel med kontroller/modell-begreppet, så som du ser på det?*
+
+Jag har inga tidigare erfarenheter av MVC så vitt jag vet. Då jag inte hunnit slutföra oophp kursen än så vet jag inte om det tagits upp där.
+Det var ett ganska så kämpigt kursmoment men jag kände att jag lärde mig mycket.
+Det material jag använde mig av för att lära mig om MVC var främst det som nämndes, dvs wikipedia.
+Som jag ser det så är fördelen att man delar upp kod efter funktion vilket gör att man har en bra koll på hur flödet av kod exekveras.
+Än så länge tycker jag det är lite krångligt med MVC då jag gärna vill ha så få filer som möjligt, men jag förstår också att det viktigt när man gör större projekt.
+
+#### *2. Kom du fram till vad begreppet SOLID innebar och vilka källor använde du? Kan du förklara SOLID på ett par rader med dina egna ord?*
+
+SOLID var svårare att förstå. Jag använde precis som tidigare de länkar till Wikipedia för att läsa på om begreppet.
+SOLID kändes lite mer abstrakt i vad som förväntas medans MVC var tydligare.
+Men som jag förstod det så handlar det främst om att skriva kod som är så fristående och lätt att modifiera.
+SOLID är mer som en filosofi medans MVC är en design.
+
+#### *3. Gick arbetet med REM servern bra och du lyckades integrera den i din me-sida?*
+
+Arbetet med REM servern gick ganska så bra tycker jag.
+När jag skulle börja med uppgiften så kändes den något abstrakt i själva syftet, men när jag väl gått igenom artikeln ett par gånger så förstod jag.
+Jag hade inga större problem att integrera REM servern på min me-sida.
+Det var främst att följa artikeln steg för steg och använda me-sidan istället för test-sidan.
+
+#### *4. Berätta om arbetet med din kommentarsmodul, hur långt har du kommit och hur tänker du?*
+
+Denna uppgift var klurig eftersom jag inte direkt förstod hur jag skulle använda mig av MVC till en början.
+Jag kände att jag fick ta ett steg tillbaka och fundera en hel del innan jag ens kunde börja, men fter ett tag började det släppa och jag insåg hur jag skulle göra.
+Jag valde att spara kommentar+gravatar i Sessions. Detta eftersom jag försökt ganska länge med att implementera en databas utan att lyckas.
+Det var frustrerande då jag var nära på att bli färdig med databasen, men det var något som inte riktigt ville fungera.
+Gravatar fick jag totalt hjärnsläpp på innan jag insåg att man skulle hasha epostadressen för att det ska fungera.
+Att implementera själva formuläret var inte allt för svårt, men det krånglade lite då jag hade problem med att ladda kommentarerna ifrån sessions i början.
+Då jag inte slutfört oophp kursen så antar jag att det är vissa moment som jag saknar vilket hade hjälpt mig på traven.
+
+
+
+
 
 ---
 

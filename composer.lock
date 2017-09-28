@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6bf70063819d6ed59d04c56c0bc0ca98",
+    "content-hash": "79d8f9a5a9ec63ae1af53b6a131ec8b5",
     "packages": [
         {
             "name": "anax/common",
@@ -103,6 +103,58 @@
                 "mvc"
             ],
             "time": "2017-08-17T13:32:35+00:00"
+        },
+        {
+            "name": "anax/database",
+            "version": "v1.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/canax/database.git",
+                "reference": "34e8c2484fd68befb85bfc3d12c75957af1c699d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/canax/database/zipball/34e8c2484fd68befb85bfc3d12c75957af1c699d",
+                "reference": "34e8c2484fd68befb85bfc3d12c75957af1c699d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "anax/common": "^1.0"
+            },
+            "suggest": {
+                "anax/common": "To enhance integration with Anax framework."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Anax\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikael Roos",
+                    "email": "mos@dbwebb.se",
+                    "homepage": "https://dbwebb.se",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Anax Database module.",
+            "homepage": "https://dbwebb.se/anax",
+            "keywords": [
+                "boilerplate",
+                "education",
+                "framework",
+                "micro",
+                "mvc"
+            ],
+            "time": "2017-09-25T19:25:01+00:00"
         },
         {
             "name": "anax/di",
